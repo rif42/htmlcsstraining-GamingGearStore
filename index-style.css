@@ -1,0 +1,506 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.heading {
+    color: rgb(49, 49, 49);
+    background: rgb(231, 231, 231);
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: rgb(49, 49, 49);
+    background:rgb(231, 231, 231);
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    Font-size: 23px;
+}
+
+.subheading {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    Font-size: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+}
+
+.topnav a {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    float: left;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    display: block;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 295px;
+    padding-top: 25px;
+    height: 30px;
+}
+
+.topnav a:hover {
+    background-color: rgb(231, 231, 231);
+    border-color: rgb(231, 231, 231);
+    outline-color: rgb(231, 231, 231);
+    color: black;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    font-size: 16px;
+    outline: none;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:8px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content {
+    background-image: url(index-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 0%;
+    background-size: cover;
+    height: 800px;
+}
+
+#demotext {
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    top: 470px;
+    right: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    font-size: 40px;
+    letter-spacing: 6px;
+    word-spacing: 2px; 
+    font-weight: 550;   
+}
+
+/* CSS for ABOUT PAGE below*/
+.content-about {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+.content-about h3{
+    font-family: Cinzel, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.content-about p{
+    font-family: 'Fauna One', serif;
+    padding: 25px
+}
+/* end for about page */
+
+/* CSS for Product page below */
+.content-product {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+.product1 {
+    border: solid grey;
+}
+
+#productname1 {
+    padding: 15px;
+    font-family: Cinzel, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#image1 {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(keybb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spec1 {
+    margin-left: 400px;
+    margin-top: -340px;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#detail1 {
+    margin-left: 400px;
+}
+
+.product2 {
+    border: solid grey;
+}
+
+#productname2 {
+    padding: 15px;
+    font-family: Cinzel, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#image2 {
+    margin-top:50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 300px;
+    background-image: url(mous.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#spec2 {
+    margin-left: 400px;
+    margin-top: -340px;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+#detail2 {
+    margin-left: 400px;
+}
+
+.product3 {
+    border: solid grey;
+}
+
+#productname3 {
+    padding: 15px;
+    font-family: Cinzel, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#image3 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 350px;
+    width: 300px;
+    background-image: url(akg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#spec3 {
+    margin-left: 400px;
+    margin-top: -340px;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+#detail3 {
+    margin-left: 400px;
+}
+
+.product4 {
+    border: solid grey;
+}
+
+#productname4 {
+    padding: 15px;
+    font-family: Cinzel, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#image4 {
+    margin-top:40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 300px;
+    width: 300px;
+    background-image: url(deskmat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spec4 {
+    margin-left: 400px;
+    margin-top: -350px;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#detail4 {
+    margin-left: 400px;
+}
+
+.product5 {
+    border: solid grey;
+}
+
+#productname5 {
+    padding: 15px;
+    font-family: Cinzel, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#image5 {
+    margin-top:10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 340px;
+    width: 300px;
+    background-image: url(zsnpro.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#spec5 {
+    margin-left: 400px;
+    margin-top: -340px;
+    font-size: 20px;
+    font-family: 'Fauna One', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#detail5 {
+    margin-left: 400px;
+}
+
+/* end of products.html page css */
+
+/* start of guestbook.html page css */
+.content-guestbook {
+    border: 5px solid grey;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+/* end of guestbook.html page css */
+
+/* start of javascript digital clock at the bottom of the page */
+.jam_digital{
+    overflow: hidden;
+    width: 330px;
+    margin-left: 500px;
+}
+
+.kotak{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.jam_digital p{
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* end of javascript digital clock at the bottom of the page */
+
+/* start of product page details */
+
+
+img {
+    margin-left: 350px;
+    width: 40%;
+    height: 40%;
+}
+
+.content-product1 {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+#product1-specdetails {
+    margin-right: 750px;
+    padding: 10px;
+    border-right: double grey 10px;
+}
+
+#product1-pricing {
+    margin-left: 600px;
+    margin-top: -390px;
+    padding: 10px;
+}
+
+img {
+    margin-left: 400px;
+    width: 40%;
+    height: 40%;
+}
+
+.content-product2 {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+#product2-specdetails {
+    margin-right: 750px;
+    padding: 10px;
+    border-right: double grey 10px;
+}
+
+#product2-pricing {
+    margin-left: 600px;
+    margin-top: -390px;
+    padding: 10px;
+}
+
+img {
+    margin-left: 400px;
+    width: 40%;
+    height: 40%;
+}
+
+.content-product3 {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+#product3-specdetails {
+    margin-right: 750px;
+    padding: 10px;
+    border-right: double grey 10px;
+}
+
+#product3-pricing {
+    margin-left: 600px;
+    margin-top: -390px;
+    padding: 10px;
+}
+
+img {
+    margin-left: 400px;
+    width: 40%;
+    height: 40%;
+}
+
+.content-product4 {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+#product4-specdetails {
+    margin-right: 750px;
+    padding: 10px;
+    border-right: double grey 10px;
+}
+
+#product4-pricing {
+    margin-left: 600px;
+    margin-top: -390px;
+    padding: 10px;
+}
+
+img {
+    margin-left: 400px;
+    width: 40%;
+    height: 40%;
+}
+
+.content-product5 {
+    background-image: url(index-background\ -\ 0.2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+#product5-specdetails {
+    margin-right: 750px;
+    padding: 10px;
+    border-right: double grey 10px;
+}
+
+#product5-pricing {
+    margin-left: 600px;
+    margin-top: -390px;
+    padding: 10px;
+}

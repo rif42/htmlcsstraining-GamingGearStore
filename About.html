@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Gaming Gear Store</title>
+    </head>
+
+    <body>
+
+        <link rel="stylesheet" href="index-style.css"/>
+
+        <div class="heading">
+            <h1 align="middle"> R-GAMING GEAR STORE</h1>
+        </div>
+        
+        <div class="subheading">
+            <p align="middle">WORK HARD, PLAY HARDER</p>
+        </div>
+
+        <div class="topnav">
+            <a href="index.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="products.html">PRODUCTS</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="product1.html">Ducky One TKL White</a>
+                    <a href="product2.html">Corsair Harpoon</a>
+                    <a href="product3.html">AKG K92</a>
+                    <a href="product4.html">Orico Gaming Desk Mat XL</a>
+                    <a href="product5.html">KZ ZSN Pro Earphone</a>
+                </div>
+            </div>
+            <a href="guestbook.html">GUEST BOOK</a>
+        </div>
+
+        <div class="content-about">
+            <h3>About</h3>
+            <p> 
+                Gaming is more than just a hobby. It's a temporary escape from reality. Experience a different life with multiple interesting scenarios that respond to your actions. A game is truly the highest form of art. To enjoy a game to its fullest, you need the proper gaming gears.
+
+                <br>
+                <br>
+
+                You can find all kinds of gaming gears in this site. All products are throughly researched and reviewed. Guaranteed to give you the best bang for your bucks, and elevate your gaming experience to higher levels. 
+                
+                <br>
+                <br>
+
+                Once you've chosen your gears, head over to the "BUY NOW" page to purchase your gaming gears.
+            </p>
+        </div>
+        <div>
+        <h5 align="center" id="tanggal"></h5>
+        <div class="jam_digital">
+            <div class="kotak">
+                <p id="jam"></p>
+            </div>
+            <div class="kotak">
+                <p id="menit"></p>
+            </div>
+            <div class="kotak">
+                <p id="detik"></p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var tgl = new Date();
+            document.getElementById("tanggal").innerHTML = "Waktu Akses "+tgl;
+            window.setTimeout("waktu()", 1000);
+            function waktu(){
+                var waktu = new Date();
+                setTimeout("waktu()", 1000);
+                document.getElementById("jam").innerHTML = waktu.getHours();
+                document.getElementById("menit").innerHTML = waktu.getMinutes();
+                document.getElementById("detik").innerHTML = waktu.getSeconds();
+            }
+        </script>
+    </body>
+    <footer>
+        <p align="center">Copyright &copy; Rifky Ariya Pratama 2021</p>
+    </footer>
+</html>

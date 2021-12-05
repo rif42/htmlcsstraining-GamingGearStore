@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Gaming Gear Store</title>
+    </head>
+
+    <body>
+
+        <link rel="stylesheet" href="index-style.css"/>
+
+        <div class="heading">
+            <h1 align="middle"> R-GAMING GEAR STORE</h1>
+        </div>
+
+        <div class="subheading">
+            <p align="middle">WORK HARD, PLAY HARDER</p>
+        </div>
+
+        <div class="topnav">
+            <a href="index.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <a href="products.html">PRODUCTS</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="product1.html">Ducky One TKL White</a>
+                    <a href="product2.html">Corsair Harpoon</a>
+                    <a href="product3.html">AKG K92</a>
+                    <a href="product4.html">Orico Gaming Desk Mat XL</a>
+                    <a href="product5.html">KZ ZSN Pro Earphone</a>
+                </div>
+            </div>
+            <a href="guestbook.html">GUEST BOOK</a>
+        </div>
+
+        <div class="content-product">
+            <div class="product1">
+                <div id="productname1"><a href="product1.html">Ducky One TKL White</a></div>
+                <div id="image1"></div>
+                <div id="spec1">Specification</div>
+                <div id="detail1">
+                    <ul>
+                        <li>CherryMX mechanical switches</li>
+                        <br>
+                        <li>Full brushed aluminum chassis</li>
+                        <br>
+                        <li>PBT double shot keycaps</li>
+                        <br>
+                        <li>USB 2.0 interface</li>
+                        <br>
+                        <li>Fully customizable RGB</li>
+                        <br>
+                        <li>Compact TKL (tenkeyless) form factor</li>
+                        <br>
+                        <li>Lightweight (950grams)</li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product2">
+                <div id="productname2"><a href="product2.html">Corsair Harpoon</a></div>
+                <div id="image2"></div>
+                <div id="spec2">Specification</div>
+                <div id="detail2">
+                    <ul>
+                        <li>6 fully programmable buttons</li>
+                        <br>
+                        <li>Up to 10.000 DPI</li>
+                        <br>
+                        <li>State of the art PMW 3325 sensor</li>
+                        <br>
+                        <li>Fully customizable RGB</li>
+                        <br>
+                        <li>Supports macro program </li>
+                        <br>
+                        <li>Compact design</li>
+                        <br>
+                        <li>Up to 30hrs of battery life</li>
+                        <br>
+                        <li>Very lightweight (100grams)</li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product3">
+                <div id="productname3"><a href="product3.html">AKG K92</a></div>
+                <div id="image3"></div>
+                <div id="spec3">Specification</div>
+                <div id="detail3">
+                    <ul>
+                        <li>Smooth and enjoyable sound characteristic</li>
+                        <br>
+                        <li>Great detail, clarity and fluid dynamics</li>
+                        <br>
+                        <li>Luxuriantly comfortable ear cups</li>
+                        <br>
+                        <li>Flexible, yet strong build quality</li>
+                        <br>
+                        <li>Over-ear closed back system deliver flawless sound isolation</li>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product4">
+                <div id="productname4"><a href="product4.html">Orico Gaming Desk Mat XL</a></div>
+                <div id="image4"></div>
+                <div id="spec4">Specification</div>
+                <div id="detail4">
+                    <ul>
+                        <li>Soft, yet responsive mouse surface</li>
+                        <br>
+                        <li>Optimized for high DPI mice</li>
+                        <br>
+                        <li>Rubberized anti-slip base</li>
+                        <br>
+                        <li>Stitched edge prevents mat from fraying</li>
+                        <br>
+                        <li>XL size (80cm x 30cm) covers the whole desk</li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="product5">
+                <div id="productname5"><a href="product5.html">KZ ZSN Pro Earphone</a></div>
+                <div id="image5"></div>
+                <div id="spec5">Specification</div>
+                <div id="detail5">
+                    <ul>
+                        <li>Warm and punchy bass</li>
+                        <br>
+                        <li>Metal faceplate with agressively unique design</li>
+                        <br>
+                        <li>Over the top ear mounting system ensures maximum comfort and fit</li>
+                        <br>
+                        <li>Detachable 2-pin cable, upgradable to APTX bluetooth wire</li>
+                        <br>
+                        <li>See-through resin inner shell</li>
+                        <br>
+                        <li>Pre-molded ear guide prevents tangling and reduces cable strain</li>
+                        <br>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h5 align="center" id="tanggal"></h5>
+            <div class="jam_digital">
+                <div class="kotak">
+                    <p id="jam"></p>
+                </div>
+                <div class="kotak">
+                    <p id="menit"></p>
+                </div>
+                <div class="kotak">
+                    <p id="detik"></p>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var tgl = new Date();
+                document.getElementById("tanggal").innerHTML = "Waktu Akses "+tgl;
+                window.setTimeout("waktu()", 1000);
+                function waktu(){
+                    var waktu = new Date();
+                    setTimeout("waktu()", 1000);
+                    document.getElementById("jam").innerHTML = waktu.getHours();
+                    document.getElementById("menit").innerHTML = waktu.getMinutes();
+                    document.getElementById("detik").innerHTML = waktu.getSeconds();
+                }
+            </script>
+    </body>
+    <footer>
+        <p align="middle">Copyright &copy; Rifky Ariya Pratama 2021</p>    
+    </footer>
+</html>
